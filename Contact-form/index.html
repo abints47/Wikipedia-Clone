@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact-form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h1 style="padding-bottom: 50px; font-size: 40px">Contact Us</h1>
+        <div class="namebox">
+          <div class="fname">
+            <h3 class="title">First Name *</h3>
+            <input type="text" class="border" />
+          </div>
+          <div class="lname">
+            <h3 class="title">Last Name *</h3>
+            <input type="text" class="border" style="width: 290px" />
+          </div>
+        </div>
+
+        <div class="email">
+          <h3 class="title">Email Address *</h3>
+          <input type="email" class="border" style="width: 100%" />
+        </div>
+
+        <h3>Query Type *</h3>
+        <div class="query">
+          <div class="query-box">
+            <input type="radio" name="query" />
+            <label style="padding-left: 5px">General Enquiry</label>
+          </div>
+          <div class="query-box">
+            <input type="radio" name="query" />
+            <label style="padding-left: 5px">General Enquiry</label>
+          </div>
+        </div>
+
+        <div class="mssg">
+          <h3 class="title">Message *</h3>
+          <textarea
+            placeholder="Your Message Here..."
+            name="message"
+            id="msg"
+            rows="8"
+            cols="75"
+            style="
+              border-radius: 10px;
+              padding-top: 10px;
+              padding-left: 20px;
+              outline: none;
+            "
+          ></textarea>
+        </div>
+
+        <div>
+          <div style="display: flex; gap: 10px; padding-bottom: 15px">
+            <input type="checkbox" />
+            <h5>I consent to being contracted by the team *</h5>
+          </div>
+          <button class="btn">Submit</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
